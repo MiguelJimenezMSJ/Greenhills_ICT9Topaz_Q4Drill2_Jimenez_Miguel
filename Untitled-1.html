@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q4 Drill 2</title>
+    <style>
+        body{
+            background-image: url(https://images.gamebanana.com/img/ss/mods/63a7d4135825b.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .box{
+            background:#02003b;
+            padding:15px;
+            border-radius:15px;
+            width:350px;
+            margin:auto;
+            margin-top:260px;
+            color:rgb(255, 0, 0);
+        }
+
+        button{
+            background:#ffd70f;
+            border:none;
+            padding:8px 15px;
+            border-radius:5px;
+        }
+
+        input{
+            padding:5px;
+            width:200px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="box text-center">
+
+    <h2>Heat Index Checker</h2>
+    <p>Note: Please enter your temperture (°C) and humidity, then press check to see your results.</p>
+
+    <form>
+    <input type="number" id="temperature" placeholder="Enter °C temperature">
+    <input type="number" id="humidity" placeholder="Enter Humidity"><br>
+    <button onclick="heat_index()">Check</button>
+    </form>
+    <script src="main.js"></script>
+
+</div>
+<div style="text-align: center; background-color: rgb(255, 98, 0); color: white; margin-top: 280px;">
+<footer>Jimenez Drill 2</footer>
+</div>
+</body>
+</html>
